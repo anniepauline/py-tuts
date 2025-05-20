@@ -1,0 +1,4 @@
+my_time = int(input("Enter time time in seconds: "))
+# for x in range(0,my_time):
+#     time.sleep(1)
+# print("TIME'S UP!")
