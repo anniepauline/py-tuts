@@ -1,4 +1,6 @@
 #typecasting - converting var from one data type to another
+#string is an object
+# characters are treated as strings
 name  = "Annie Pauline"
 age = 24
 gpa = 3.2
@@ -34,3 +36,7 @@ name = bool(name)
 print(name)
 
 
+import sys
+
+char = 'A'
+print(sys.getsizeof(char))  # Typically around 50 bytes (includes Python object overhead)
