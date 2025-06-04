@@ -1,5 +1,9 @@
 # variable scope - where a var is visible and accessible
-#scope resolution - preference(LEGB) - Local, encolsed, Global, Built-in
+"""scope resolution - preference(LEGB) - 
+Local= vars in a fun
+encolsed = vars in a nested fun
+Global= vars top of script
+Built-in= predefined"""
 
 from math import e
 
